@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Exo" !important;
+}
+
+body {
+  background: radial-gradient(circle, #e5e5e5 0%, #d2d2d2 50%);
+}
+
+a:link,
+a:visited {
+  color: #4e0e2e;
+  text-decoration: none;
+  font-weight: bold;
+  background: none;
+}
+a:hover,
+a:active {
+  opacity: 50%;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+
+.active {
+  opacity: 50%;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.activeDark {
+  color: #d2d2d2;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.on {
+  opacity: 80%;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+
+
+
+.switch,
+.switchstyle,
+.switchstyle:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.switch {
+  display: inline-block;
+  font-size: 15px;
+  height: 1.6em;
+  position: relative;
+}
+.switch .switchstyle {
+  height: 1.6em;
+  left: 0;
+  background: #917180;
+  -webkit-border-radius: 0.8em;
+  border-radius: 0.8em;
+  display: inline-block;
+  position: relative;
+  top: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 3em;
+  cursor: pointer;
+  
+}
+.switch .switchstyle:before {
+  display: block;
+  content: "";
+  height: 1.4em;
+  position: absolute;
+  width: 1.4em;
+  background-color: #fff;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  left: 0.1em;
+  top: 0.1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  
+}
+.switch > input[type="checkbox"] {
+  display: none;
+  
+}
+
+.switch > input[type="checkbox"]:checked + .switchstyle {
+  background-color: #4e0e2e;
+  
+}
+.switch > input[type="checkbox"]:checked + .switchstyle:before {
+  left: 50%;
+  
+}
