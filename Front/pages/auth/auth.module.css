@@ -1,0 +1,226 @@
+.container {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffffcc;
+    padding: 15px;
+    margin: 100px auto auto;
+    border-radius: 10px;
+    z-index: 0;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+  }
+
+  .Msgcontainer {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.799);
+    /* padding: 15px; */
+    margin: 100px auto auto;
+    border-radius: 10px;
+    z-index: 0;
+    width: 450px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .formControl {
+    font-family: "Exo";
+    width: 320px;
+    height: 40px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+    background-color: #d2d2d2;
+    border: 2px solid #d2d2d2;
+    border-radius: 0.375rem;
+    /* transition: border-color 0.15s ease-in-out; */
+    box-shadow: 0.3s ease-in-out;
+    text-align: left;
+    text-indent: 5px;
+
+
+  }
+  .formControl:focus {
+    outline: none !important;
+    /* border: 2px solid #4e0e2e; */
+
+  }
+
+
+
+
+
+  .formControlHead {
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 3px;
+  }
+
+ 
+  
+  .btn,
+  .btn:visited {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 40px;
+    background-color: #4e0e2e;
+    color: #fff;
+    border: #4e0e2e;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    /* margin-top: -10px; */
+  }
+
+  .btn:active {
+    opacity: 90%;
+
+  }
+
+  .btnLoading {
+    opacity: 90%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 40px;
+    background-color: #4e0e2e;
+    color: #fff;
+    border: #4e0e2e;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+
+  }
+
+
+
+  .emailVerification {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    /* font-size: 30px;  */
+    margin: 150px 50px 150px 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      margin: 100px auto;
+      width: 350px;
+    }
+    .formControl {
+      width: 280px;
+    }
+    .btn {
+      width: 280px;
+    }
+
+    .RECAPTCHA {
+      transform:scale(0.9); 
+      }
+  }
+  
+
+  .accountsTitle {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .accountsHelp {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+  .dontHaveAnAccount {
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+  }
+  
+  .agreeRules {
+    font-size: 13px;
+  }
+  
+
+  .RECAPTCHA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    width: 0px;
+    margin-top: 10px; 
+  }
+
+
+
+  .errors {
+    margin-top: 2px;
+    font-size: 13px;
+    margin-bottom: 3px;
+    color: #ED4649;
+    text-align: left;
+
+  }
+
+  
+  .messageError {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .success {
+    color: #159852;
+    font-weight: bold;
+  }
+  
+  .failed {
+    color: #ED4649;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 400px) {
+    .container {
+      margin: 100px auto;
+      width: 250px;
+      
+    }
+    .formControl {
+      width: 260px;
+      height: 40px;
+      text-align: center ;
+      
+    }
+    .formControlHead {
+      text-align: center ;
+
+    }
+    .errors {
+      text-align: center ;
+
+    }
+    .btn {
+      width: 260px;
+    }
+
+    .RECAPTCHA {
+    transform:scale(0.8); 
+    }
+
+
+  }
+  
