@@ -80,11 +80,7 @@ const BtnContainer = styled.div`
     align-items: center;
   }
 `;
-// const Farsi = styled.div`
 
-// font-family: Vazirmatn !important;
-
-// `
 
 export default function Home() {
   return (
@@ -113,7 +109,6 @@ export default function Home() {
             <p>This is a sample Project.</p>
           </Leading>
 
-        {/* <Farsi>این یک متن فارسی با فونت زیبای وزیرمتن است‌</Farsi> */}
       </Container>
     </>
   );
