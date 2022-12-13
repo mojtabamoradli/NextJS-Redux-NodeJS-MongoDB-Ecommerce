@@ -31,9 +31,7 @@ export default function Contact() {
           <p>Call, Message or Email For Consultation</p>
 
           <div className={styles.contacts}>
-              {/* <a href="tel:+(98) 9123705826">+(98) 912 370 5826</a>
-              <a href="https://ir.linkedin.com/in/mojtabamoradli" title="LinkedIn" rel="noreferrer" target="_blank"> LinkedIn</a>
-              <a href={`mailto:${"contact@mojtabamoradli.ir"}`}>contact@mojtabamoradli.ir</a> */}
+
 
               <a href="tel:+(98) ">+(98) 912 123 4567</a>
               <a href="https://ir.linkedin.com" title="LinkedIn" rel="noreferrer" target="_blank"> LinkedIn</a>
