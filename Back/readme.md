@@ -1,0 +1,19 @@
+### .env
+
+```
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USER=
+MAIL_PASS=
+
+PORT=4000
+
+MONGODB_ATLAS_URI=
+BACKEND_BASE_URL=http://localhost:4000
+BASE_URL=http://localhost:3000
+
+SMS_USER=
+SMS_PASS=
+
+STRIPE_SECRET_KEY=
+```
